@@ -1,8 +1,8 @@
 # CHECKPOINT 1
 
-** Tips: **
+** Hints **
 
-* Try to solve the problems from memorizing what you learned (not by googling)
+* Try to solve the problems from memorizing what you learned first.
 * If you get stuck, skip to the next step!
 * Regardless of whether you finish, remember to commit everything and push
 
@@ -65,8 +65,37 @@ You can then edit the file manually to correct your answers.
 > Please answer honestly, without any help from the Internet!
 
 
+## IV. HTML/CSS
+
+You were hired to carry out mobile integration for the Wild Code School homepage!
+
+You will find a `web` folder in the root of your local repository.
+
+The structure of the *index.html* file is already approved, so you will need to modify the *style.css* file so that the site displays as follows:
+
+*[Mobile version](./templates/template-mobile.png)
+*[Desktop version (>= 768px)](./templates/template-desktop.png)
+
+> You will also find these two images in the `templates` folder
+
+#### The colors to be used are as follows:
+
+* "#39424E": default text and footer background color
+* "#F76C6C" : background color of the "Apply now" button
+
+###### Be careful to respect the following points: 
+
+* do not modify the structure of HTML, except to add classes
+* successfully integrate according to *mobile first* methodology
+* use *flex box* alone, to position elements
+* the desktop version should be displayed for screen sizes **768px** and higher
+* in the desktop version, the columns of the three articles are **250px** wide and must be spaced using "space-around".
+* do not delete the code that is already present in *style.css*
+* you don't have to add or change the font size (*font-size*): this is already perfect.
+
+
 ## V. Finalisation
 
-Push the changes made to your local branch; and push everything to your remote repository on GitHub.
+Push the changes made to your local branch; and push that branch to your remote repository on GitHub.
 
 On the GitHub website, check that the branch exists and that your changes are present.
