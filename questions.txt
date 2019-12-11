@@ -19,4 +19,3 @@ What is a reference?
 What is the difference between the int and Integer types?
 Which naming rule should I apply to the naming of a class?
 What is the latest version of Java?
-x
