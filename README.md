@@ -10,12 +10,14 @@
 
 ### 1. Local repo
 
-Create a fork of this repo on GitHub, and clone the forked repo!
-
-In your local repository, create a branch using the following format: the city of your course in lowercase, your first name and surname without accents or spaces, separate everything with dashes, and write your surname in uppercase. Example: **Peter Schmidt** in Bonn would create a branch called **bonn-peter-SCHMIDT**.
-
+C### 1. Local repo
+ 
+Retrieve the contents of this repository locally. **Download a copy of the repository, don't Fork!**
+ 
+In your local repository, create a branch using the following format: the city of your course in lowercase, your first name and surname without accents or spaces, separate everything with dashes, and write your surname in uppercase. Example: **Eloise Durant**, would create a branch called **lyon-eloise-DURANT**.
+ 
 **Work on this branch for the rest of the checkpoint!**
-
+ 
 > Tip: commit and push your changes locally after each exercise, to avoid unpleasant surprises
 
 ### 2. gitignore
@@ -87,15 +89,16 @@ The structure of the *index.html* file is already approved, so you will need to 
 
 * do not modify the structure of HTML, except to add classes
 * successfully integrate according to *mobile first* methodology
-* use *flex box* alone, to position elements
 * the desktop version should be displayed for screen sizes **768px** and higher
-* in the desktop version, the columns of the three articles are **250px** wide and must be spaced using "space-around".
+* in the desktop version, the columns of the three articles are **250px** wide.
 * do not delete the code that is already present in *style.css*
 * you don't have to add or change the font size (*font-size*): this is already perfect.
 
 
 ## V. Finalisation
 
-Push the changes made to your local branch; and push that branch to your remote repository on GitHub.
+Push the changes made to your local branch; and push everything to the remote repository.
 
 On the GitHub website, check that the branch exists and that your changes are present.
+
+Now return to Odyssey and share the link to your branch on GitHub.
