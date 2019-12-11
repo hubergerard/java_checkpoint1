@@ -9,8 +9,6 @@
 ## I. Downloading and initializing of the project
 
 ### 1. Local repo
-
-C### 1. Local repo
  
 Retrieve the contents of this repository locally. **Download a copy of the repository, don't Fork!**
  
