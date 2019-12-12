@@ -25,3 +25,78 @@ footer {
 }
 
 /* Your code here */
+
+.my-navbar ul {
+    text-align: right;
+}
+
+.my-navbar li {
+    display: inline;
+    padding: 8px;
+}
+
+.my-navbar a {
+    color: black;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+#apply{
+    background-color: #F76C6C;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2px 0;
+    border: solid 1px transparent;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+
+#apply a{
+    color: white;
+}
+article {
+    float: right;
+    width: 25%;
+    padding: 5px;
+}
+
+footer ul{
+    float: right;
+    width: 25%;
+    padding: 5px;
+    color: white;
+    background-color: #39424E;
+}
+
+footer a {
+    color: white;
+}
+
+footer li {
+    font-weight: bold;
+    list-style: none;
+}
+
+footer {
+    color: white;
+    background-color: #39424E;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+
+}
+#WCC {
+    position: absolute;
+    bottom: 0;
+}
