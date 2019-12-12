@@ -29,6 +29,16 @@ public class Quiz {
 		return (age >= 18) ? true : false;
 	}
 
+	public static char giveGroup(int studNumber) {
+
+		// Create a static method called giveGroup, which takes in a student's number.
+		// If this is even, return the character "A", otherwise return the character
+		// "B".
+		
+		return (studNumber % 2 == 0) ? 'A' : 'B';
+		
+	}
+
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
