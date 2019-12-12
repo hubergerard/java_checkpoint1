@@ -22,6 +22,35 @@ article p {
 }
 footer {
     font-size: 0.8em;
+    background-color: #39424E ;
 }
 
 /* Your code here */
+
+
+
+body {
+    color: #39424E;
+}
+
+
+#apply-now{
+    background-color: #76C6C;
+  }
+
+
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+
+
+  .block{
+    float:left;
+    width:33.3%; 
+  }
+
+
+  
