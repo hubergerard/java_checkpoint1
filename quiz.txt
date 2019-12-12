@@ -1,0 +1,63 @@
+1. What is the default branch of a git repository called?
+master
+
+2. How do you change branches using git?
+git branch <branchname>
+
+3. What is the command that allows me to create a local repository from a remote repository?
+git clone <address_to_repository>
+
+4. How do you check the status of the working directory of a the local repository?
+git status
+
+5. What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
+git add. ; git commit -m "description" ; git push
+
+6. How do you display a list of all the commits made on the current branch?
+git log
+
+7. What is the command that is used to navigate back to the root of the file system?
+cd /
+
+8. What is the command that allows you to navigate to the current user's folder?
+cd
+
+9. How would I wipe everything from my terminal?
+clear or Ctrl-L
+
+10. What is the command that is used to create an empty file `README.md`?
+touch README.md
+
+11. What is the command that is used to delete a directory and all the files it contains?
+rm -rf <directoryname>
+
+12. What is the value of the expression `false || !false`?
+true
+
+13. How can we write `i = i + 5` more concisely?
+i+=5
+
+14. What does the term “concatenation” mean?
+appending the output to the end of the previous one
+
+15. How can we find out the number of elements of an array named `students`?
+student.length
+
+16. In Java, what value does 21 / 100 return?
+depends on the resulting type: if int/Integer: 0, if float 0.21
+
+17. What is the signature of the `main` method of a class?
+String[] args
+
+18. What is a reference?
+it is a pointer
+
+19. What is the difference between the int and Integer types?
+int is a simple type, Integer an object which allows more operations
+
+20. Which naming rule should I apply to the naming of a class?
+CamelCase, means each word in the name begins uppercase, all combined together without spaces
+
+21. What is the latest version of Java?
+11
+
