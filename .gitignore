@@ -1,3 +1,6 @@
 .idea
 .vsc
 *.iml
+*.class
+/bin/
+.project
