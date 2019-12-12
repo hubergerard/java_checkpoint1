@@ -10,7 +10,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Quiz {
+public class trQuiz {
 
     private static final int CHECKPOINT_NUM = 1;
     private static final String QUESTIONS_FILE = "questions.txt";
