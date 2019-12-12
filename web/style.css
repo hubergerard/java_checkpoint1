@@ -19,9 +19,14 @@ a:hover {
 article p {
     font-size: 0.8em;
     padding: 10px;
+    background-color: "#39424E";
 }
 footer {
     font-size: 0.8em;
+    background-color: "#39424E";
 }
 
-/* Your code here */
+button {
+    
+
+}
