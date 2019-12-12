@@ -26,15 +26,15 @@ public class Student {
 
 
     // TODO countStudents
-    public static String countStudents(String [] language) {
-    	while (){
+    public static int countStudents(String [] language) {
 
-    	}
+        int counter = 0;
+        for (int i = 0; i < language.length; i++) {
+            if (language[i].equalsIgnoreCase("Java")) {
+                counter++;
+            }
+        }
+        return counter;
     }
-
-
-
-
-
-
 }
+

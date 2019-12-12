@@ -22,6 +22,15 @@ article p {
 }
 footer {
     font-size: 0.8em;
+    background: #39424E;
+    color: white;
+    font-weight: bold;
 }
 
-/* Your code here */
+
+footer a{
+    font-size: 0.8em;
+    background: #39424E;
+    color: white;
+    
+}
