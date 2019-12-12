@@ -1,27 +1,120 @@
 /* Don't touch this ! */
+
 html {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
 }
-body, h1, h2, h3, ul, li, a, p {
+
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+a,
+p {
     margin: 0;
     padding: 0;
 }
-h2, h3 {
+
+h2,
+h3 {
     font-size: 1em;
 }
+
 a {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 article p {
     font-size: 0.8em;
     padding: 10px;
 }
+
 footer {
     font-size: 0.8em;
 }
 
+
 /* Your code here */
+
+header section nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1,
+h2,
+#applyNow {
+    display: flex;
+    justify-content: space-around;
+}
+
+#applyNow {
+    background-color: #F76C6C;
+    width: max-content;
+    border-radius: 35px;
+    margin: auto;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 20rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer,
+footer a {
+    background-color: #39424E;
+    color: white;
+}
+
+footer section ul {
+    float: left;
+}
+
+article {
+    float: left;
+}
+
+header section nav li {
+    display: flex;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+@media (min-width: 768px) {
+    header section nav {
+        justify-content: flex-end;
+    }
+    article {
+        width: 250px;
+    }
+    #logo {
+        float: left;
+    }
+}
+
+@media (max-width: 767px) {}
