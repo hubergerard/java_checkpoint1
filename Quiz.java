@@ -12,55 +12,61 @@ import java.util.Scanner;
 
 public class Quiz {
 
-    private static final int CHECKPOINT_NUM = 1;
-    private static final String QUESTIONS_FILE = "questions.txt";
-    private static final String QUIZ_FILE = "quiz.txt";
+	private static final int CHECKPOINT_NUM = 1;
+	private static final String QUESTIONS_FILE = "questions.txt";
+	private static final String QUIZ_FILE = "quiz.txt";
 
-    private static final String INTRO_TEXT1 = "\nQuiz Checkpoint %d\n";
-    private static final String INTRO_TEXT2 = "\nPlease only use your memory to answer the %d questions.";
-    private static final String INTRO_TEXT3 = "\nIf you're wrong about something, you can still edit the `%s` file at the end.\n";
-    private static final String ANSWER_TEXT1 = "\nAnswer:";
-    private static final String OUTRO_TEXT1 = "\nThe %s file has been generated, you can edit it manually if you want to change it.\n";
+	private static final String INTRO_TEXT1 = "\nQuiz Checkpoint %d\n";
+	private static final String INTRO_TEXT2 = "\nPlease only use your memory to answer the %d questions.";
+	private static final String INTRO_TEXT3 = "\nIf you're wrong about something, you can still edit the `%s` file at the end.\n";
+	private static final String ANSWER_TEXT1 = "\nAnswer:";
+	private static final String OUTRO_TEXT1 = "\nThe %s file has been generated, you can edit it manually if you want to change it.\n";
 
-    public static void main(String[] args) {
+	public static boolean isLegal(int age) {
+		// Create a static method named isLegal, which returns "true" if the age passed
+		// as an argument is greater than or equal to 18 and returns "false" if it is
+		// not.
+		return (age >= 18) ? true : false;
+	}
 
-        Scanner scanner = new Scanner(System.in);
-        Path path = Paths.get(QUIZ_FILE);
+	public static void main(String[] args) {
 
-        ArrayList<String> questions = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(QUESTIONS_FILE))) {
-            while (br.ready()) {
-                questions.add(br.readLine());
-            }
+		Scanner scanner = new Scanner(System.in);
+		Path path = Paths.get(QUIZ_FILE);
 
-            System.out.printf(INTRO_TEXT1, CHECKPOINT_NUM);
-            System.out.printf(INTRO_TEXT2, questions.size());
-            System.out.printf(INTRO_TEXT3, QUIZ_FILE);
+		ArrayList<String> questions = new ArrayList<>();
+		try (BufferedReader br = new BufferedReader(new FileReader(QUESTIONS_FILE))) {
+			while (br.ready()) {
+				questions.add(br.readLine());
+			}
 
-            try (BufferedWriter init = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
-                init.close();
+			System.out.printf(INTRO_TEXT1, CHECKPOINT_NUM);
+			System.out.printf(INTRO_TEXT2, questions.size());
+			System.out.printf(INTRO_TEXT3, QUIZ_FILE);
 
-                for (int i = 0; i < questions.size(); i++) {
-                    try (BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8,
-                            StandardOpenOption.APPEND)
-                    ) {
-                        String question = String.format("%d. %s", i + 1, questions.get(i));
-                        System.out.print("\n" + question);
-                        System.out.print(ANSWER_TEXT1);
-                        String answer = scanner.nextLine();
+			try (BufferedWriter init = Files.newBufferedWriter(path, StandardCharsets.UTF_8)) {
+				init.close();
 
-                        writer.write(question + "\n" + answer + "\n\n");
-                    } catch (IOException ex) {
-                        ex.printStackTrace();
-                    }
-                }
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
+				for (int i = 0; i < questions.size(); i++) {
+					try (BufferedWriter writer = Files.newBufferedWriter(path, StandardCharsets.UTF_8,
+							StandardOpenOption.APPEND)) {
+						String question = String.format("%d. %s", i + 1, questions.get(i));
+						System.out.print("\n" + question);
+						System.out.print(ANSWER_TEXT1);
+						String answer = scanner.nextLine();
 
-            System.out.printf(OUTRO_TEXT1, QUIZ_FILE);
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
-    }
+						writer.write(question + "\n" + answer + "\n\n");
+					} catch (IOException ex) {
+						ex.printStackTrace();
+					}
+				}
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+
+			System.out.printf(OUTRO_TEXT1, QUIZ_FILE);
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+	}
 }
