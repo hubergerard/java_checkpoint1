@@ -25,3 +25,44 @@ footer {
 }
 
 /* Your code here */
+
+
+a {
+    color: #39424E;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: #F76C6C;
+    background-color: #F76C6C;
+    border-radius: 35px;
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
