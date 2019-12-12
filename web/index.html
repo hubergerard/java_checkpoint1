@@ -6,72 +6,85 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, user-scalable=no">
+    <!-- Das neueste kompilierte und minimierte CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optionales Theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <!-- Das neueste kompilierte und minimierte JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
-<body>
+
+<body class="container">
 <header>
-    <section>
-        <a href="#index">
-            <img alt="Wild Code School logo" src="https://via.placeholder.com/150x50">
+    <section class="row ">
+        <a href="#index" >
+            <img alt="Wild Code School logo" src="https://via.placeholder.com/150x50" class="col-md-3">
         </a>
-        <nav>
-            <ul>
-                <li><a href="#training">Training</a></li>
-                <li><a href="#jobs">Jobs</a></li>
-                <li><a href="#campuses">Campuses</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about-us">About Us</a></li>
+        <nav class="col-md-9 col-sm ml-2">
+            <ul id="navul">
+                <li class="nav-item pull-right"><a href="#training" class="nav-link">Training</a></li>
+                <li class="nav-item pull-right"><a href="#jobs" class="nav-link">Jobs</a></li>
+                <li class="nav-item pull-right"><a href="#campuses" class="nav-link">Campuses</a></li>
+                <li class="nav-item pull-right"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item pull-right"><a href="#about-us" class="nav-link" >About Us</a></li>
             </ul>
         </nav>
     </section>
 </header>
-<section>
-    <h1>Wild Code School</h1>
-    <h2>Learn tech skills with passion</h2>
-    <a href="#apply-now">Apply now</a>
+
+<section class="row text-center mb-3">
+    <h1 class="col-md ">Wild Code School</h1>
+    <h2 class="col-md ">Learn tech skills with passion</h2>
+    <a id="apply" href="#apply-now" class="col-md">Apply now</a>
 </section>
-<section>
-    <article>
-        <img alt="19 campuses in Europe icon" src="https://via.placeholder.com/120x120">
-        <h3>19 campuses in Europe</h3>
+
+<section class="row mt-3">
+    <article class ="col-md-4 text-center card">
+        <img alt="19 campuses in Europe icon" src="https://via.placeholder.com/120x120" class="card-img-top">
+        <div class="card-body">
+        <h3 class="card-text">19 campuses in Europe</h3>
         <p>Join a campus at the heart of your city's digital ecosystem. Connect with a European community of over 2000
             passionate Wilders. who help each other, exchange job offers and innovate together.</p>
+        </div>
     </article>
-    <article>
+    <article class ="col-md-4 text-center">
         <img alt="+ 1000 partner companies icon" src="https://via.placeholder.com/120x120">
         <h3>+ 1000 partner companies</h3>
         <p>Build your portfolio of projects and your professional network during meetups, hackathons and masterclasses.
             Join a Job Dating and a Demo Day to practice.</p>
     </article>
-    <article>
+    <article class ="col-md-4 text-center">
         <img alt="90% of employability rate icon" src="https://via.placeholder.com/120x120">
         <h3>90% of employability rate</h3>
         <p>Learn the most in-demand technical skills on the market and develop your soft skills to flourish in your
             professional life.</p>
     </article>
+
 </section>
+
 <footer>
-    <section>
-        <ul>
+    <section class="row">
+        <ul class ="col-md-4">
             <li>More information</li>
             <li><a href="#application-process">Application process</a></li>
             <li><a href="#financing">Financing</a></li>
             <li><a href="#teaching-approach">Teaching approach</a></li>
             <li><a href="#training">Training</a></li>
         </ul>
-        <ul>
+        <ul class ="col-md-4">
             <li>Our Trainings</li>
             <li><a href="#web-developer-part-time">Web developer - Part-time</a></li>
             <li><a href="#web-developer-full-time">Web developer - Full-time</a></li>
             <li><a href="#data-analyst">Data analyst</a></li>
         </ul>
-        <ul>
+        <ul class ="col-md-4">
             <li>Wilders Community</li>
             <li><a href="#blog">Blog</a></li>
             <li><a href="#join-the-team">Join the team</a></li>
         </ul>
     </section>
     <section>
-        <p>18 rue de la gare 28480 La Loupe France © 2013-2019 Wild Code School. All rights reserved</p>
+        <p class="col-md text-center">18 rue de la gare 28480 La Loupe France © 2013-2019 Wild Code School. All rights reserved</p>
     </section>
 </footer>
 </body>

@@ -2,6 +2,7 @@
 html {
     font-family: 'Raleway', sans-serif;
     font-size: 1.6em;
+
 }
 body, h1, h2, h3, ul, li, a, p {
     margin: 0;
@@ -22,6 +23,41 @@ article p {
 }
 footer {
     font-size: 0.8em;
+    background-color: #39424E;
+    color: white;
 }
 
 /* Your code here */
+
+footer ul{
+   list-style-type:none;
+}
+
+article {
+  width: 250px
+}
+
+nav ul{
+  text-aling:right;
+}
+
+nav ul li{
+  display:inline;
+  margin-left: 10px;
+}
+
+section{
+  margin:13px;
+}
+
+#navul{
+  font-size: 1.8em;
+}
+
+#apply{
+background-color: #F76C6C;
+border-radius:20px;
+border-style: none;
+padding:7px;
+color: white;
+}
