@@ -1,3 +1,5 @@
+.class
 .idea
 .vsc
 *.iml
+/bin/
