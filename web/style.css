@@ -25,3 +25,23 @@ footer {
 }
 
 /* Your code here */
+nav {
+    max-width: 250 px;
+    }
+
+ul {
+    text-align: center;
+    list-style-type: none; /* ohne Aufzählungspunkte */
+
+    }
+.listitem {
+
+    display: inline;
+
+    }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
