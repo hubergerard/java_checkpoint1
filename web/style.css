@@ -25,3 +25,85 @@ footer {
 }
 
 /* Your code here */
+li {
+    list-style-type: none;
+}
+
+section * {
+    color: #39424E;
+}
+
+h2 + a {
+    background-color: #F76C6C;
+    padding: 0.4em;
+    border-radius: 4em;
+    color: white;
+}
+
+footer * {
+    color: white;
+    background-color: #39424E;
+}
+
+@media only screen and (min-width: 768px) {
+    header section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav li {
+    margin: 0.4em;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer li:first-child {
+    font-weight: bold;
+}
+/*
+header > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > section > a {
+    display: flex;
+    justify-content: space-around;
+}
+
+header > section > nav > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+*/
+/*header section a {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+*/
+/*nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}*/
