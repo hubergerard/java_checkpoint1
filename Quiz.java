@@ -34,9 +34,30 @@ public class Quiz {
 		// Create a static method called giveGroup, which takes in a student's number.
 		// If this is even, return the character "A", otherwise return the character
 		// "B".
-		
+
 		return (studNumber % 2 == 0) ? 'A' : 'B';
-		
+
+	}
+
+	public static int countStudents(String[] languages) {
+
+		// Create a static method called countStudents, which receives an array
+		// containing the languages chosen by the candidates. Return the number of
+		// candidates who have chosen Java, regardless of how they wrote it (upper/lower
+		// case).
+
+		int javaStudentCounter = 0;
+
+		if (languages != null) {
+			for (String language : languages) {
+				if (language.toLowerCase() == "java") {
+					javaStudentCounter++;
+				}
+			}
+		}
+
+		return javaStudentCounter;
+
 	}
 
 	public static void main(String[] args) {
