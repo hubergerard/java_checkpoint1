@@ -28,7 +28,9 @@ footer {
     background: #39424E
 }
 .pic{
-    padding 768px
+   position: fixed;
+   top 50px
+
 }
 .nav{
 
