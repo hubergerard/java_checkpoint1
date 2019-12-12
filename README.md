@@ -9,13 +9,13 @@
 ## I. Downloading and initializing of the project
 
 ### 1. Local repo
- 
+
 Retrieve the contents of this repository locally. **Download a copy of the repository, don't Fork!**
- 
+
 In your local repository, create a branch using the following format: the city of your course in lowercase, your first name and surname without accents or spaces, separate everything with dashes, and write your surname in uppercase. Example: **Eloise Durant**, would create a branch called **lyon-eloise-DURANT**.
- 
+
 **Work on this branch for the rest of the checkpoint!**
- 
+
 > Tip: commit and push your changes locally after each exercise, to avoid unpleasant surprises
 
 ### 2. gitignore
@@ -46,7 +46,7 @@ Create a static method called *countStudents*, which receives an array containin
 
 ### 4. Testing
 
-Remember to test the methods you have developed. 
+Remember to test the methods you have developed.
 
 To compile and execute the `StudentTest` class, you can use the *tester.sh* script in the `algos` folder as follows:
 
@@ -83,7 +83,7 @@ The structure of the *index.html* file is already approved, so you will need to 
 * "#39424E": default text and footer background color
 * "#F76C6C" : background color of the "Apply now" button
 
-###### Be careful to respect the following points: 
+###### Be careful to respect the following points:
 
 * do not modify the structure of HTML, except to add classes
 * successfully integrate according to *mobile first* methodology
