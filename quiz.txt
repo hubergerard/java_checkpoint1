@@ -44,7 +44,7 @@ An operation to join two Strings
 System.out.println(students.length);
 
 16. In Java, what value does 21 / 100 return?
-1
+0
 
 17. What is the signature of the `main` method of a class?
 public static void main(String[]args){}
