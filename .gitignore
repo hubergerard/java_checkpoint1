@@ -1,3 +1,6 @@
 .idea
 .vsc
 *.iml
+
+# Compiled class file
+*.class
