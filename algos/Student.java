@@ -9,11 +9,11 @@ public class Student {
 	}
 
     // TODO getGroup
-	public static String giveGroup(int number) {
+	public static char giveGroup(int number) {
 		if (number%2 == 0) {
-			return "A";
+			return 'A';
 		}
-		else {return "B";}
+		else {return 'B';}
 	}
 
     // TODO countStudents
@@ -21,8 +21,8 @@ public class Student {
 		int counter= 0;
 		
 		for (int i = 0; i < arr.length; i++) {
-			arr[i].toLowerCase(); 
-			if(arr[i].equals("java")) {
+			//arr[i] = arr[i].toLowerCase(); 
+			if(arr[i].toLowerCase().equals("java")) {
 				counter++;
 			}
 		}	
