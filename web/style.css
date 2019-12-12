@@ -6,6 +6,7 @@ html {
 body, h1, h2, h3, ul, li, a, p {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 h2, h3 {
     font-size: 1em;
@@ -23,5 +24,16 @@ article p {
 footer {
     font-size: 0.8em;
 }
+
+.myfooter {
+  background: #39424E;
+}
+
+.pic2 {
+    width:150px;
+    height: 50 px;
+    text-align: left
+}
+
 
 /* Your code here */
