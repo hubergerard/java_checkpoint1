@@ -1,27 +1,62 @@
 /* Don't touch this ! */
 html {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.6em;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6em;
+  color: #39424e;
 }
-body, h1, h2, h3, ul, li, a, p {
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
 }
-h2, h3 {
-    font-size: 1em;
+h2,
+h3 {
+  font-size: 1em;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 article p {
-    font-size: 0.8em;
-    padding: 10px;
+  font-size: 0.8em;
+  padding: 10px;
 }
 footer {
-    font-size: 0.8em;
+  font-size: 0.8em;
+  background-color: #39424e;
+}
+
+.applyButton {
+  background-color: #39424e;
+  border-radius: 5px;
+  width: 150px;
+  margin: 10px;
+}
+
+.centeredLink {
+  display: flex;
+  justify-content: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 50%;
+}
+
+.footerHeading {
+  font-size: 1.5rem;
 }
 
 /* Your code here */
