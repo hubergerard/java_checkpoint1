@@ -17,7 +17,7 @@ public class Student {
     public static char giveGroup (int studentNumber){
         if (studentNumber % 2 == 0){
             return 'A';
-        }else {
+        }else{
             return 'B';
         }
     }
@@ -26,5 +26,15 @@ public class Student {
 
 
     // TODO countStudents
+    public static String countStudents(String [] language) {
+    	while (){
+
+    	}
+    }
+
+
+
+
+
 
 }
