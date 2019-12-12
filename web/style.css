@@ -25,3 +25,24 @@ footer {
 }
 
 /* Your code here */
+body {  /* bootstrap prevents body from inheriting html parent's font-family */
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    color: white;
+    background-color: #39424e;
+}
+
+footer a {
+   color: white; 
+}
+
+a.apply {
+    background-color: #f76c6c;
+    border-radius: 30px;
+} 
+
+li {
+    list-style-type: none;
+}
