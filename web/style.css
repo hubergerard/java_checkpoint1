@@ -29,34 +29,26 @@ article p {
   font-size: 0.8em;
   padding: 10px;
 }
+
+/* Your code here */
+
 footer {
   font-size: 0.8em;
   background-color: #39424e;
 }
 
 .applyButton {
-  background-color: #39424e;
+  background-color: #f76c6c;
   border-radius: 5px;
   width: 150px;
   margin: 10px;
 }
 
-.centeredLink {
-  display: flex;
-  justify-content: center;
-}
-
-.footerContainer {
-  display: flex;
-  justify-content: center;
-}
-
 body {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .footerHeading {
   font-size: 1.5rem;
 }
-
-/* Your code here */
