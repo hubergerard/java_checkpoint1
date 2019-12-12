@@ -1,3 +1,5 @@
+package algos;
+
 import junit.framework.*;
 import org.junit.Test;
 
@@ -10,22 +12,22 @@ public class StudentTest extends TestCase {
 
 	@Test
 	public void testNotLegal() throws Exception {
-		assertEquals(false, Student.hasLegalAge(11));
+		assertEquals(false, Student.isLegal(11));
 	}
 
     @Test
     public void testLegal() throws Exception {
-        assertEquals(true, Student.hasLegalAge(21));
+        assertEquals(true, Student.isLegal(21));
     }
 
     @Test
     public void testEven() throws Exception {
-        assertEquals('A', Student.getGroup(12));
+        assertEquals('A', Student.giveGroup(12));
     }
 
     @Test
     public void testOdd() throws Exception {
-        assertEquals('B', Student.getGroup(23));
+        assertEquals('B', Student.giveGroup(23));
     }
 
     @Test

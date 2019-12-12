@@ -2,3 +2,4 @@
 .vsc
 *.iml
 *.class
+/bin/
