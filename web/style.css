@@ -25,3 +25,107 @@ footer {
 }
 
 /* Your code here */
+
+.apply_now{
+ background-color: #F76C6C;
+ border-radius: 25px;
+ padding: 10px;
+ width: 150px;
+ height: 150px;
+ color: white;
+}
+
+footer{
+   background-color: #39424E;
+   text-align: center;
+   color:white;
+}
+
+body{
+  color: #39424E;
+  display: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+ text-align:center;
+}
+
+.headlines{
+text-align:center;
+}
+
+.firstlinks{
+color:#39424E;
+padding: 2px;
+}
+
+.secondlinks{
+color:white;
+}
+
+.whitefat{
+font-weight: bold;
+margin-top:10px;
+}
+
+.footerending{
+ margin-top:10px;
+}
+.textmargin{
+margin-bottom:10px;
+}
+h2{
+margin-bottom: 30px;
+}
+
+.secondimageimage{
+ margin-top: 50px;
+}
+.inline{
+display: inline;
+}
+
+@media only screen and (min-width: 768px) {
+.inline{
+	text-align: right;
+	float: right;
+}
+.firstlinks{
+ padding: 10px;
+}
+h1{
+ margin-top:50px;
+ margin-bottom:10px;
+}
+/*.firstimage{
+float:left;
+margin:0;
+padding:0;
+}*/
+
+
+.mainsection0{
+
+}
+.mainsection1{
+ width: 250px;
+ display: inline-block;
+ align-content: center;
+}
+
+.mainsection2{
+ width: 250px;
+ display: inline-block;
+ float: left;
+}
+
+
+.mainsection3{
+ width: 250px;
+ display: inline-block;
+ float: left;
+}
+
+}
