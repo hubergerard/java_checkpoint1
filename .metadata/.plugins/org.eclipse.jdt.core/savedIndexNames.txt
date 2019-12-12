@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/sea4/deutsche-telekom-java-0919-checkpoint1/.metadata/.plugins/org.eclipse.jdt.core
