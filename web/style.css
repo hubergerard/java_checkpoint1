@@ -11,6 +11,8 @@ body, h1, h2, h3, ul, li, a, p {
 h2, h3 {
     font-size: 1em;
 }
+
+
 a {
     text-decoration: none;
 }
@@ -20,6 +22,7 @@ a:hover {
 article p {
     font-size: 0.8em;
     padding: 10px;
+    text-align: left;
 }
 footer {
     font-size: 0.8em;
@@ -30,9 +33,19 @@ footer {
 }
 
 .pic2 {
-    width:150px;
+    width:100px;
     height: 50 px;
-    text-align: left
+    text-align: left;
+}
+
+.pic1 {
+    width:120px;
+    height: 120 px;
+
+}
+
+.h3left {
+    text-align: left;
 }
 
 
