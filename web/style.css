@@ -25,3 +25,34 @@ footer {
 }
 
 /* Your code here */
+
+* {
+  color: #39424E;
+}
+
+footer {
+  background-color: #39424E;
+  color: white;
+}
+
+
+.button{
+  background-color: #F76C6C;
+}
+
+ body {
+  text-align: center;
+}
+
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  width: 50%;
+  list-style-type: none;
+  display: flex; 
+}
+
+article img { 
+  align-content: left
+}
