@@ -25,3 +25,70 @@ footer {
 }
 
 /* Your code here */
+body{
+  font-family: 'Raleway';
+  color: #39424E;
+}
+
+header {
+  display: inline;
+}
+footer {
+  background-color: #39424E;
+  padding: 1em;
+  color: #FFF;
+  list-style: none;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+ padding-bottom: 1em;
+ font-weight: bolder;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+a:link {
+  color: #fff;
+}
+
+.whead a:link  {
+  color: #000;
+}
+
+.Apply .Apply{
+  margin: auto;
+  color: #fff;
+  width: 20%;
+  background: #F76C6C;
+}
+
+.whead.whead {
+    display: inline
+    float : left;
+}
+
+.wimg {
+  padding-top: 20px;
+  float: left;
+}
+
+.wlist {
+  display: block;
+  color: #000;
+  line-height: 30px;
+  height: 20px;
+  float: right;
+  padding: 10px 10px;
+}
+
+.s1 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
