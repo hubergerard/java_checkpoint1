@@ -25,3 +25,56 @@ footer {
 }
 
 /* Your code here */
+
+.img{
+    margin: 10px;
+}
+
+footer{
+    background-color: #39424E;
+    color: white;
+}
+
+.navbar li {
+    list-style-type: none;
+    padding-left: 5vw;
+}
+
+.nav-item {
+    color: white; 
+}
+
+.h1_format{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+.h2_format{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+.apply{
+    background-color: #F76C6C ;
+    color: white;
+    border-radius: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button_center {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    color:  #39424E;
+}
+
+.header-nav{
+    color:  #39424E;
+}
