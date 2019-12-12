@@ -5,9 +5,19 @@ public class Student {
 		return (age >= 18) ? true : false;
 	}
 
+	// mapping method for different JUNIT-signature
+	public static boolean hasLegalAge(int age) {
+		return isLegal(age);
+	}
+
 	// TODO getGroup
 	public static char giveGroup(int studentNumber) {
 		return (studentNumber % 2 == 0) ? 'A' : 'B';
+	}
+
+	// mapping method for different JUNIT-signature
+	public static char getGroup(int studentNumber) {
+		return giveGroup(studentNumber);
 	}
 
 	// TODO countStudents
