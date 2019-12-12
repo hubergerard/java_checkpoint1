@@ -1,5 +1,6 @@
-import junit.framework.*;
 import org.junit.Test;
+
+import junit.framework.*;
 
 public class StudentTest extends TestCase {
 
