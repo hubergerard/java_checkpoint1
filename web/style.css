@@ -2,7 +2,6 @@
 html {
   font-family: "Raleway", sans-serif;
   font-size: 1.6em;
-  color: #39424e;
 }
 body,
 h1,
@@ -29,26 +28,132 @@ article p {
   font-size: 0.8em;
   padding: 10px;
 }
+footer {
+  font-size: 0.8em;
+}
 
 /* Your code here */
 
+header {
+  margin: 5px;
+}
+
+header > section {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  color: black;
+}
+
+header > section > a {
+  display: flex;
+  justify-content: center;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+header ul li {
+  margin: 0.2em;
+  color: black;
+}
+
+@media (max-width: 767px) {
+  header > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.WCSHeader {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.WCSHeader > h2 {
+  margin-bottom: 1em;
+}
+
+.WCSHeader > a {
+  background-color: #f76c6c;
+  padding: 0.5em;
+  border-radius: 40px;
+  margin: 10px;
+  color: white;
+}
+
+article {
+  text-align: center;
+  width: 250px;
+}
+
+@media (max-width: 767px) {
+  /* Artikelbreite über die gesamte Breite*/
+  article {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+article p {
+  text-align: left;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  /* Anordnung der Artikel in Spalten */
+  .articles {
+    flex-direction: column;
+  }
+}
+
 footer {
-  font-size: 0.8em;
   background-color: #39424e;
 }
 
-.applyButton {
-  background-color: #f76c6c;
-  border-radius: 5px;
-  width: 150px;
-  margin: 10px;
+footer a {
+  color: white;
+  font-size: 1em;
 }
 
-body {
+.footerNavArea {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 20px;
 }
 
-.footerHeading {
-  font-size: 1.5rem;
+@media (max-width: 767px) {
+  .footerNavArea {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footerNavArea ul {
+  list-style-type: none;
+}
+
+.footerHeadline {
+  color: white;
+  font-size: 1.5em;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
 }
