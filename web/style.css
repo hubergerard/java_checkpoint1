@@ -45,11 +45,7 @@ header > section {
 
 header a {
   color: black;
-}
-
-header > section > a {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 header ul {
