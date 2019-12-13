@@ -25,3 +25,179 @@ footer {
 }
 
 /* Your code here */
+
+.grey {
+    color: #39424E;
+}
+
+nav ul li a {
+    color: #39424E;
+}
+
+footer ul li a {
+    color: white;
+}
+
+.center {
+    position: relative;
+    top: 0.3em;
+    width:  100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    text-align: left;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+}
+
+.margin {
+    display: flex;
+    position: relative;
+    top: 1.3em;
+}
+
+.bold {
+    font-weight: bold
+}
+
+.big-margin {
+    top: 5em;        
+}
+
+.button {
+    background-color: #F76C6C;
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.foot {
+    position: relative;
+    top: 5em;
+    width: 100%;
+    background-color: #39424E;
+    color: white;
+    padding-top: 1.4em;
+    text-align: center;
+}
+
+.col {
+    margin-top: 0.8em;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    top: 0.2em;
+    float: left;
+    flex-direction: column;
+}    
+
+
+@media only screen and (min-width: 768px) {
+    .inline {
+        float: left;
+        position: relative;
+        top: 0.3em;
+        left: 0.3em;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-left: 0.8em;
+        position: relative;
+        top: 0.8em;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    .d-c {
+        display: inline-block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    .d-l {
+        list-style: none;
+        text-align: left;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .box {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        width: 750px;
+        flex-direction: row;
+    }
+
+    .f-box {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: salmon;
+        display: flex;
+        position: relative;
+        width: 750px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .m-center {
+        display: flex;
+        position: relative;
+        top: 0.3em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .m-list {
+        display: flex;
+        position: relative;
+        top: 1.0em;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    nav ul li, footer section ul li a {
+        list-style: none;
+        margin-left: 0.8em;
+    }
+
+    .box {
+        display: flex;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .m-l {
+        display: inline-block;
+        text-align: left;
+        margin-left: 0.4em;
+        margin-right: 0.4em;
+    }
+
+    .m-c {
+        text-align: center;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+    
+}
