@@ -2,7 +2,7 @@
 master
 
 2. How do you change branches using git?
-git chgit checkout branchName
+git checkout branchName
 
 3. What is the command that allows me to create a local repository from a remote repository?
 git clone remote repositoryName
@@ -11,16 +11,16 @@ git clone remote repositoryName
 git status
 
 5. What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
-git push origin master
+git add / commit / push branch
 
 6. How do you display a list of all the commits made on the current branch?
-git commit -a 
+git log
 
 7. What is the command that is used to navigate back to the root of the file system?
-pwd
+cd /
 
 8. What is the command that allows you to navigate to the current user's folder?
-pwd
+cd ~
 
 9. How would I wipe everything from my terminal?
 clear
@@ -35,29 +35,28 @@ rm -r directoryName
 true
 
 13. How can we write `i = i + 5` more concisely?
-i=5
+i+=5
 
 14. What does the term “concatenation” mean?
-A string and number can be concatenated with the output, e.g.
+A string and can be concatenated, e.g. "bla" + "bla"
 
 15. How can we find out the number of elements of an array named `students`?
-System.out.println ("" + "" + variable)With a for loop the output value can be determined via the array, first value is 0, second 1,..
+size() / length()
 
 16. In Java, what value does 21 / 100 return?
-An error occurs, the data types must be specified.
+0
 
 17. What is the signature of the `main` method of a class?
 public static void main(String[] args)
 
 18. What is a reference?
-API
+A reference is a value that refers to a another value.
 
 19. What is the difference between the int and Integer types?
-none
+int  (data type) / Integer (classe) 
 
 20. Which naming rule should I apply to the naming of a class?
 class names begin with a large initial letter.
 
 21. What is the latest version of Java?
-1.8
-
+openjdk 11.0.4
