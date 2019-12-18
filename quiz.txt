@@ -11,6 +11,8 @@ git clone
 git status
 
 5. What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
+git add
+git commit
 git push
 
 6. How do you display a list of all the commits made on the current branch?
