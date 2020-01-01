@@ -25,6 +25,46 @@ footer {
 }
 
 /* Your code here */
-header section {
+body, a {
+	color: #39424E;
+}
+
+body{
+	display: flex;
+	flex-flow: row wrap;
+}
+
+footer, footer a {
+	color: #ffffff;
+	background-color: #39424E;
 	
+}
+
+
+ul.navigation {
+  list-style-type: none;
+  display: flex;
+  	align: right;
+}
+
+@media (min-width: 32em) {
+	/* mehrspaltiges Layout für breitere Viewports */
+	
+	article {
+		float: left;
+		width: 15em;
+	}
+}
+
+.apply-button {
+  border-radius: 2.5em;
+  /*top: 0.5em;*/
+  right: 5em;
+  left: 5em;
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  background: #F76C6C;
+  color: #ffffff;
+  /*font-size: 3em;*/
 }
