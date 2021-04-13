@@ -1,6 +1,6 @@
 # CHECKPOINT 1
 
-** Hints **
+**Hints**
 
 * Try to solve the problems from memorizing what you learned first.
 * If you get stuck, skip to the next step!
@@ -48,11 +48,27 @@ Create a static method called *countStudents*, which receives an array containin
 
 Remember to test the methods you have developed. 
 
+#### Unix
+
 To compile and execute the `StudentTest` class, you can use the *tester.sh* script in the `algos` folder as follows:
 
 ```Bash
 ./test.sh
 ```
+
+#### Windows
+
+To compile and execute the `StudentTest` class, you can type the code below
+```sh
+javac -cp .;junit-4.12.jar StudentTest.java
+```
+
+Then, if no error occur, type the code below: 
+
+```
+java -cp .;junit-4.12.jar;hamcrest-core-1.3.jar org.junit.runner.JUnitCore StudentTest
+```
+
 
 ## III. Quiz
 
