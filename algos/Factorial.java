@@ -1,5 +1,5 @@
 package algos;
 
-public class Factorielle {
+public class Factorial {
    // TODO 
 }

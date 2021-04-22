@@ -44,7 +44,7 @@ The school needs to count how many of its future students want to learn Java. To
 
 Create a static method called *countStudents*, which receives an array containing the languages chosen by the candidates. Return the number of candidates who have chosen Java, regardless of how they wrote it (upper/lower case).
 
-### 4. Factorielle (Récursivité)
+### 4. Factorial (Recursivity)
 
 Create a recursive method that computes a factorial :
 
