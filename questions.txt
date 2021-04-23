@@ -1,21 +1,40 @@
 What is the default branch of a git repository called?
+- main
 How do you change branches using git?
+- git checkout -b <branch>
 What is the command that allows me to create a local repository from a remote repository?
+- git clone <Url>
 How do you check the status of the working directory of a the local repository?
+- git status
 What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
+- git pull
 How do you display a list of all the commits made on the current branch?
+- git log
 What is the command that is used to navigate back to the root of the file system?
+- cd ..
 What is the command that allows you to navigate to the current user's folder?
+- ls
 How would I wipe everything from my terminal?
 What is the command that is used to create an empty file `README.md`?
 What is the command that is used to delete a directory and all the files it contains?
+- rm
 What is the value of the expression `false || !false`?
+- true
 How can we write `i = i + 5` more concisely?
+- i+=5
 What does the term “concatenation” mean?
+- Mettre des éléments cote à cote
 How can we find out the number of elements of an array named `students`?
+- students.size()
 In Java, what value does 21 / 100 return?
+- it depends on the type that we assign to the variable
 What is the signature of the `main` method of a class?
+- Class
 What is a reference?
+-
 What is the difference between the int and Integer types?
+- int is a primitive type and Integer no
 Which naming rule should I apply to the naming of a class?
+- The first letter should be upcase and it should be CamelCase
 What is the latest version of Java?
+- java 15
