@@ -29,12 +29,8 @@ body{
     color: #39424E;
 }
 
-header, footer {
+header, footer{
     display: flex;
-}
-
-nav {
-    flex-direction: row;
 }
 
 footer{
@@ -43,6 +39,23 @@ footer{
 
 li {
     list-style-type: none;
+}
+
+header > * {
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.applyBtn{
+    display: block;
+    background-color: #F76C6C;
+    color: white;
+    border-radius: 40px;
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 768px){
