@@ -15,6 +15,18 @@ public class BlackJackTest extends TestCase {
       String[] bank = new String[] {"10", "J"};
       assertEquals("BLACKJACK!", BlackJack.score(bank, player));
   }
+    @Test
+    public void testFalseBlackJack() throws Exception {
+        String[] player = new String[] {"9", "2"};
+        String[] bank = new String[] {"3", "3"};
+        assertEquals("Player wins!", BlackJack.score(bank, player));
+    }
+    @Test
+    public void testFalseBlackJack2() throws Exception {
+        String[] player = new String[] {"9", "2"};
+        String[] bank = new String[] {"10", "3"};
+        assertEquals("Bank wins!", BlackJack.score(bank, player));
+    }
 
   @Test
   public void testBank() throws Exception {
