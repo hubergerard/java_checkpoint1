@@ -1,7 +1,8 @@
-import junit.framework.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-public class StudentTest extends TestCase {
+public class StudentTest {
 
 	@Test
 	public void testTrue() throws Exception {
@@ -39,4 +40,10 @@ public class StudentTest extends TestCase {
         String[] students = {"java", "js", "Java", "PHP", "JS", "JAVA", "Java"};
         assertEquals(4, Student.countStudents(students));
     }
+    
+    @Test
+    public void testFactorise() throws Exception {
+        assertEquals(24, Student.factorise(4));
+    }
+    
 }
