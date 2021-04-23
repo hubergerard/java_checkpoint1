@@ -1,0 +1,63 @@
+1. What is the default branch of a git repository called?
+main
+
+2. How do you change branches using git?
+git checkout -b branchName
+
+3. What is the command that allows me to create a local repository from a remote repository?
+git clone
+
+4. How do you check the status of the working directory of a the local repository?
+git status
+
+5. What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
+git add . & git commit -m "changes done" & git push
+
+6. How do you display a list of all the commits made on the current branch?
+git log
+
+7. What is the command that is used to navigate back to the root of the file system?
+cd /D C: || or cd /
+
+8. What is the command that allows you to navigate to the current user's folder?
+cd %USERPROFILE% || cd ~
+
+9. How would I wipe everything from my terminal?
+clear || cls
+
+10. What is the command that is used to create an empty file `README.md`?
+touch README.md 
+
+11. What is the command that is used to delete a directory and all the files it contains?
+rm -R /path/to/dir || rmdir /Q /S C:\mondossier
+
+12. What is the value of the expression `false || !false`?
+true
+
+13. How can we write `i = i + 5` more concisely?
+i+=5
+
+14. What does the term “concatenation” mean?
+it means to assemble strings and/or variables altogether (for declaration, test, output, whatever purpose)
+
+15. How can we find out the number of elements of an array named `students`?
+student.length()  || can also be sizeOf(students) 
+
+16. In Java, what value does 21 / 100 return?
+0.21d
+
+17. What is the signature of the `main` method of a class?
+public static void main (String[] args)
+
+18. What is a reference?
+a pointer to a memory location where the value of a variable is stored
+
+19. What is the difference between the int and Integer types?
+Integer is an object while int is the primitive type
+
+20. Which naming rule should I apply to the naming of a class?
+a class should be CamelCase with first letter UpperCase and no special char or number
+
+21. What is the latest version of Java?
+16
+

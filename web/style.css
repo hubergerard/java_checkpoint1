@@ -25,3 +25,26 @@ footer {
 }
 
 /* Your code here */
+body{
+    color: #39424E;
+}
+
+header, footer {
+    display: flex;
+}
+
+nav {
+    flex-direction: row;
+}
+
+footer{
+    background-color: #39424E;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media screen and (max-width: 768px){
+
+}
