@@ -20,8 +20,6 @@ public class BlackJack {
             playerPoint += new Integer(player[i]);
         }
 
-        bank[1].valueOf("5");
-
         if (playerPoint == 11 && bank[0].contains("1") && bank[1].contains("10"))
         {
             return "BLACKJACK!";
