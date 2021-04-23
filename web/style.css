@@ -4,7 +4,7 @@ html {
     font-size: 1.6em;
 }
 body, h1, h2, h3, ul, li, a, p {
-    margin: 0;
+    margin: 5px;
     padding: 0;
 }
 h2, h3 {
@@ -25,3 +25,88 @@ footer {
 }
 
 /* Your code here */
+
+footer {
+    background-color: #39424E;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
+
+.titreFooter
+{
+    font-weight: bold;
+}
+
+.applyNow
+{
+    background-color: #F76C6C;
+    border-radius: 15px;
+    padding: 3px;
+    color: white;
+    text-align: center;
+}
+.intro
+{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    color: black;
+}
+nav ul li a{
+    color: black;
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px)
+{
+
+    .sectionArticle
+    {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    footer section {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        text-align: left;
+    }
+
+    footer li {
+        list-style-type: none;
+    }
+
+    header section
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+}
