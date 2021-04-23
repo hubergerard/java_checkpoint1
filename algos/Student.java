@@ -21,10 +21,5 @@ public class Student {
         return nb;
     }
 
-    public static int factorise(int nb) {
-        if (nb == 0 || nb == 1) {
-            return 1;
-        }
-        return nb * factorise(nb - 1);
-    }
+
 }

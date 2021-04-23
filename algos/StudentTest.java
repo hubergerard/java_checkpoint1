@@ -41,9 +41,6 @@ public class StudentTest {
         assertEquals(4, Student.countStudents(students));
     }
     
-    @Test
-    public void testFactorise() throws Exception {
-        assertEquals(24, Student.factorise(4));
-    }
+ 
     
 }

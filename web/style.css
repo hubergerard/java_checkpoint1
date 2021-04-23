@@ -25,3 +25,138 @@ footer {
 }
 
 /* Your code here */
+
+body {
+    color: #39424E;
+    display: flex;
+    flex-direction: column;
+}
+
+.body_titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin: 10px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+.button_apply {
+    background-color: #F76C6C;
+    border-radius: 25px;
+    border: 15px;
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    color:ivory;
+}
+
+/* partie Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 10px;
+}
+
+#header_logo {
+    display: flex;
+    align-self: center;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: column;
+}
+
+header ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+header li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color:#39424E;
+}
+/* partie Footer */
+
+footer {
+    background-color: #39424E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:ivory;
+}
+
+.section_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer li {
+    list-style-type:none;
+    font-weight: lighter;
+}
+
+.footer_titre {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color:ivory;
+}
+
+.footer_address {
+    display:block;
+    align-items: center;
+    align-self: center;
+}
+
+@media all and (min-width: 768px) {
+
+    .unarticle {
+        width: 250px;
+    }
+    
+    .header_section {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    
+    header ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+    
+    footer ul {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+
+
+    
+}
