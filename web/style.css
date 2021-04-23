@@ -110,9 +110,6 @@ li {
 }
 
 @media (max-width: 768px) {
-    body {
-        background-color: antiquewhite;
-    }
     .header-section > a {
         margin: auto;
     }
