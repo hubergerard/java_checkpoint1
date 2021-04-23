@@ -25,3 +25,108 @@ footer {
 }
 
 /* Your code here */
+body, a {
+    color: #39424E;
+}
+
+
+
+#apply-now {
+    background-color: #F76C6C;
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1.5em;
+    color: white;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header-section ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.header-section li {
+    margin-left: 1em;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+}
+article h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: #39424E;
+    color: white;
+}
+footer a {
+    color: white;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1em 2em;
+}
+.footer-section ul {
+    margin-top: 6px;
+}
+.footer-section li:first-child {
+    font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: antiquewhite;
+    }
+    .header-section > a {
+        margin: auto;
+    }
+    article {
+        max-width: 100%;
+        align-items: start;
+    }
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
