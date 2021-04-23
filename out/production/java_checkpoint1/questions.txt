@@ -1,0 +1,21 @@
+What is the default branch of a git repository called?
+How do you change branches using git?
+What is the command that allows me to create a local repository from a remote repository?
+How do you check the status of the working directory of a the local repository?
+What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
+How do you display a list of all the commits made on the current branch?
+What is the command that is used to navigate back to the root of the file system?
+What is the command that allows you to navigate to the current user's folder?
+How would I wipe everything from my terminal?
+What is the command that is used to create an empty file `README.md`?
+What is the command that is used to delete a directory and all the files it contains?
+What is the value of the expression `false || !false`?
+How can we write `i = i + 5` more concisely?
+What does the term “concatenation” mean?
+How can we find out the number of elements of an array named `students`?
+In Java, what value does 21 / 100 return?
+What is the signature of the `main` method of a class?
+What is a reference?
+What is the difference between the int and Integer types?
+Which naming rule should I apply to the naming of a class?
+What is the latest version of Java?

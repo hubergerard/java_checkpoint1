@@ -1,0 +1,27 @@
+/* Don't touch this ! */
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+}
+body, h1, h2, h3, ul, li, a, p {
+    margin: 0;
+    padding: 0;
+}
+h2, h3 {
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+article p {
+    font-size: 0.8em;
+    padding: 10px;
+}
+footer {
+    font-size: 0.8em;
+}
+
+/* Your code here */
