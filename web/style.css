@@ -25,3 +25,15 @@ footer {
 }
 
 /* Your code here */
+li {
+	display: inline-block;
+}
+
+ul {
+	text-align:center;
+}
+
+.displaySectionDeb{
+	display:flex;
+	align-items: center;
+}
