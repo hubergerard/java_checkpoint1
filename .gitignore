@@ -1,3 +1,4 @@
 .idea
 .vsc
 *.iml
+out/

@@ -21,7 +21,54 @@ article p {
     padding: 10px;
 }
 footer {
+    background-color: #39424E;
+    color: white;
     font-size: 0.8em;
 }
 
+footer, section, ul, li {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+
+header, section, ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.titre {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bouton {
+    background-color: #F76C6C;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /* Your code here */
+@media (max-width: 768px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header, section, ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+}
