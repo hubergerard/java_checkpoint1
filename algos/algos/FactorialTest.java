@@ -1,9 +1,12 @@
 package algos;
 
 import junit.framework.*;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-public class FactorialTest extends TestCase {
+public class FactorialTest {
 
 	@Test
 	public void testTrue() throws Exception {

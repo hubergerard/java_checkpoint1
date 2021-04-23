@@ -1,7 +1,11 @@
+package algos;
 import junit.framework.*;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-public class StudentTest extends TestCase {
+public class StudentTest {
 
 	@Test
 	public void testTrue() throws Exception {
