@@ -23,103 +23,107 @@ article p {
 }
 
 /* ------------------ Your code here */
-p{
-    color : #39424E;
-}
-section a {
-	background-color : #F76C6C;
+p {
+	color : 39424E;
 }
 
-article{
-	width : 250px;
-}
-
-nav {
-	color:white;
-}
-ul{
-	list-style-type: none;
-}
-
-body, header {
-	display:flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-		width:100%
-}
-
+/*---- header */
 .container1 {
-	    display: flex;
-	    flex-direction : row;
-        justify-content: space-between;
-        width:100%;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: center;
+	width: 100%
 }
 
 nav ul {
-		display:flex;
-		flex-direction: row;
-		flex-wrap:wrap;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.container2{
-	display:flex;
-	flex-direction:column;
-	justify-content: center;
+nav ul li {
+	padding : 5px;
 }
 
-h1, h2 {
+nav ul li:last-child {
+	align-self: auto;
+}
+
+
+/*----- Container2 */
+.container2 {
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-top : 5px;
+	padding : 20px;
 }
 
 .radius {
-	border-radius : 20px;
-	text-align: center;
-	width : 150px;
+	background-color: #F76C6C;
+	border-radius: 10px;
+	padding : 10px;
+	margin-top:20px;
+	margin-bottom: 20px;
 }
 
-.container3 {
-	 	display : flex;
-	 	flex-wrap : wrap;
-}
-	
-.container3 article {
-		flex-direction : row;
-		justify-content: center;
-		text-alignb:center;
-		flex-basis : 33%;
-}
-
+/*------ footer */
 footer {
-    font-size: 0.8em;
-    background-color : #F76C6C;
-    text-align : center;
-    display:flex;
-    flex-direction : column;
-	flex-wrap: nowrap;
+	background-color: #39424E;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  
-   .container1 {
-	    display: flex;
-	    flex-direction : column;
-        justify-content: space-between;
+footer section:nth-child(1) ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+footer section:nth-child(2) {
+	text-align: center;
+}
+
+
+/*  Si écran sup à 758 */
+@media screen and (min-width : 768px) {
+	
+	/*---- header */
+	.container1 {
+		display:flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		width: 100%
 	}
-   
-    .image{
-    	 justify-content: center;
-    	  align-items:center;
-    }
-    nav ul {
-        display:flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin: 10px;
-    }
-    
-
-}
+	
+	/*---- container3 */
+	.container3 {
+		display : flex;
+		justify-content: space-around;
+	}
+	
+	.container3 article {
+		width: 250px;	
+		display:flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	
+	.container3 article h3 {
+		text-align : center;
+	}
+	
+	container3 article p {
+		text-align: left;	
+	}
+	
+	
+} 
