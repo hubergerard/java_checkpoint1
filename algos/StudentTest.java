@@ -42,6 +42,6 @@ public class StudentTest extends TestCase {
 
     @Test
     public void testTrueIsTrue() {
-	    assertTrue(true);
+	    assertFalse(false);
     }
 }
