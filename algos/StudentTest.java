@@ -39,4 +39,9 @@ public class StudentTest extends TestCase {
         String[] students = {"java", "js", "Java", "PHP", "JS", "JAVA", "Java"};
         assertEquals(4, Student.countStudents(students));
     }
+
+    @Test
+    public void testTrueIsTrue() {
+	    assertTrue(true);
+    }
 }
